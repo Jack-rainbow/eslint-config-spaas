@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-spaas",
+  "version": "0.0.1",
+  "description": "ESLint Config for spaas fe team.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jack-rainbow/eslint-config-spaas.git"
+  },
+  "keywords": [
+    "eslint",
+    "spaas"
+  ],
+  "author": "987709173@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jack-rainbow/eslint-config-spaas/issues"
+  },
+  "homepage": "https://github.com/Jack-rainbow/eslint-config-spaas#readme"
+}
