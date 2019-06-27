@@ -1,5 +1,5 @@
 module.exports = {
-    'no-console': 0,  
+    'no-console': 0,
     'no-debugger': 1,
     'one-var': 1, //禁止声明var
     'camelcase': 'off', //命名规范
@@ -14,7 +14,6 @@ module.exports = {
     'vue/require-default-prop': 'off',
     'vue/no-reserved-keys': 'off',
     'vue/prop-name-casing': 'off',
-    'space-before-function-paren': 0, //格式化函数
     'guard-for-in': 0, //for in循环而不过滤循环中的结果时可能出现的意外行为
     'no-restricted-syntax': 0, //不允许用户定义语法
     'no-param-reassign': 0, //防止由功能参数的修改或重新分配引起的意外行为
@@ -55,14 +54,7 @@ module.exports = {
     'consistent-return': 0, //关闭函数中return的检测
     'space-before-blocks': [2, 'always'],
     'semi': [2, 'always'],
-    'space-before-function-paren': [
-      'error',
-      {
-        anonymous: 'always',
-        named: 'never',
-        asyncArrow: 'always',
-      },
-    ],
+    'space-before-function-paren': [2, 'never'],
     'no-spaced-func': 2,
     'no-unused-vars': 2,
 };
