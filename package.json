@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spaas",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ESLint Config for spaas fe team.",
   "main": "index.js",
   "scripts": {
