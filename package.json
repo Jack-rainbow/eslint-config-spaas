@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spaas",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "ESLint Config for spaas fe team.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,11 @@
   },
   "keywords": [
     "eslint",
-    "spaas"
+    "spaas",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
   ],
   "author": "987709173@qq.com",
   "license": "MIT",

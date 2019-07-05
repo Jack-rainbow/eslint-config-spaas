@@ -1,5 +1,7 @@
 # eslint-config-spaas
 
+[![npm version](https://badge.fury.io/js/eslint-config-spaas.svg)](https://badge.fury.io/js/eslint-config-spaas)
+
 This package provides spaas's base JS .eslintrc as an extensible shared config.
 
 ## Usage

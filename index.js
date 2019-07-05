@@ -1,4 +1,4 @@
-const rules = require('./rules');
+  const rules = require('./rules/best-practices');
 
 module.exports = {
   'root': true,
@@ -11,13 +11,23 @@ module.exports = {
     'jasmine': false
   },
 
-  'parserOptions': {
-    ecmaVersion: 5,
-    sourceType: 'module',
-    'ecmaFeatures': {
-      'jsx': true
-    }
-  },
+  extends: [
+    './rules/best-practices',
+    './rules/errors',
+    './rules/node',
+    './rules/style',
+    './rules/variables',
+    './rules/es6',
+  ].map(require.resolve),
 
-  rules: rules
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+  },
+  rules: {
+    strict: 'error',
+  },
 };
+
+
+console.log(rules);
