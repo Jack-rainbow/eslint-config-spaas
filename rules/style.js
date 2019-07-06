@@ -196,7 +196,7 @@ module.exports = {
 
     // disallow mixed 'LF' and 'CRLF' as linebreaks
     // https://eslint.org/docs/rules/linebreak-style
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': 0,
 
     // require or disallow an empty line between class members
     // https://eslint.org/docs/rules/lines-between-class-members
@@ -457,7 +457,8 @@ module.exports = {
     }],
 
     // allow just one var statement per function
-    'one-var': [2, { 'initialized': 'never' }],
+    //适应团队人员修改
+    'one-var': 0,
 
     // require a newline around variable declaration
     // https://eslint.org/docs/rules/one-var-declaration-per-line
