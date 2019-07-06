@@ -427,28 +427,29 @@ module.exports = {
 
     // enforce line breaks between braces
     // https://eslint.org/docs/rules/object-curly-newline
-    'object-curly-newline': ['error', {
-      ObjectExpression: {
-        minProperties: 4,
-        multiline: true,
-        consistent: true
-      },
-      ObjectPattern: {
-        minProperties: 4,
-        multiline: true,
-        consistent: true
-      },
-      ImportDeclaration: {
-        minProperties: 4,
-        multiline: true,
-        consistent: true
-      },
-      ExportDeclaration: {
-        minProperties: 4,
-        multiline: true,
-        consistent: true
-      },
-    }],
+    'object-curly-newline': 0,
+    // 'object-curly-newline': ['error', {
+    //   ObjectExpression: {
+    //     minProperties: 4,
+    //     multiline: true,
+    //     consistent: true
+    //   },
+    //   ObjectPattern: {
+    //     minProperties: 4,
+    //     multiline: true,
+    //     consistent: true
+    //   },
+    //   ImportDeclaration: {
+    //     minProperties: 4,
+    //     multiline: true,
+    //     consistent: true
+    //   },
+    //   ExportDeclaration: {
+    //     minProperties: 4,
+    //     multiline: true,
+    //     consistent: true
+    //   },
+    // }],
 
     // enforce "same line" or "multiple line" on object properties.
     // https://eslint.org/docs/rules/object-property-newline
@@ -462,7 +463,7 @@ module.exports = {
 
     // require a newline around variable declaration
     // https://eslint.org/docs/rules/one-var-declaration-per-line
-    'one-var-declaration-per-line': ['error', 'always'],
+    'one-var-declaration-per-line': 0,
 
     // require assignment operator shorthand where possible or prohibit it entirely
     // https://eslint.org/docs/rules/operator-assignment

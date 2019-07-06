@@ -50,9 +50,10 @@ module.exports = {
 
     // disallow arrow functions where they could be confused with comparisons
     // https://eslint.org/docs/rules/no-confusing-arrow
-    'no-confusing-arrow': ['error', {
-      allowParens: true,
-    }],
+    'no-confusing-arrow': 0,
+    // 'no-confusing-arrow': ['error', {
+    //   allowParens: true,
+    // }],
 
     // disallow modifying variables that are declared using const
     'no-const-assign': 'error',
