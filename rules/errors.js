@@ -60,7 +60,7 @@ module.exports = {
 
     // disallow double-negation boolean casts in a boolean context
     // https://eslint.org/docs/rules/no-extra-boolean-cast
-    'no-extra-boolean-cast': 'error',
+    'no-extra-boolean-cast': 0,
 
     // disallow unnecessary parentheses
     // https://eslint.org/docs/rules/no-extra-parens
