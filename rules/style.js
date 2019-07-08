@@ -196,7 +196,7 @@ module.exports = {
 
     // disallow mixed 'LF' and 'CRLF' as linebreaks
     // https://eslint.org/docs/rules/linebreak-style
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': 0,
 
     // require or disallow an empty line between class members
     // https://eslint.org/docs/rules/lines-between-class-members
@@ -427,28 +427,29 @@ module.exports = {
 
     // enforce line breaks between braces
     // https://eslint.org/docs/rules/object-curly-newline
-    'object-curly-newline': ['error', {
-      ObjectExpression: {
-        minProperties: 4,
-        multiline: true,
-        consistent: true
-      },
-      ObjectPattern: {
-        minProperties: 4,
-        multiline: true,
-        consistent: true
-      },
-      ImportDeclaration: {
-        minProperties: 4,
-        multiline: true,
-        consistent: true
-      },
-      ExportDeclaration: {
-        minProperties: 4,
-        multiline: true,
-        consistent: true
-      },
-    }],
+    'object-curly-newline': 0,
+    // 'object-curly-newline': ['error', {
+    //   ObjectExpression: {
+    //     minProperties: 4,
+    //     multiline: true,
+    //     consistent: true
+    //   },
+    //   ObjectPattern: {
+    //     minProperties: 4,
+    //     multiline: true,
+    //     consistent: true
+    //   },
+    //   ImportDeclaration: {
+    //     minProperties: 4,
+    //     multiline: true,
+    //     consistent: true
+    //   },
+    //   ExportDeclaration: {
+    //     minProperties: 4,
+    //     multiline: true,
+    //     consistent: true
+    //   },
+    // }],
 
     // enforce "same line" or "multiple line" on object properties.
     // https://eslint.org/docs/rules/object-property-newline
@@ -457,11 +458,12 @@ module.exports = {
     }],
 
     // allow just one var statement per function
-    'one-var': [2, { 'initialized': 'never' }],
+    //适应团队人员修改
+    'one-var': 0,
 
     // require a newline around variable declaration
     // https://eslint.org/docs/rules/one-var-declaration-per-line
-    'one-var-declaration-per-line': ['error', 'always'],
+    'one-var-declaration-per-line': 0,
 
     // require assignment operator shorthand where possible or prohibit it entirely
     // https://eslint.org/docs/rules/operator-assignment

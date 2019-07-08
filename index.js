@@ -1,4 +1,3 @@
-  const rules = require('./rules/best-practices');
 
 module.exports = {
   'root': true,
@@ -28,6 +27,3 @@ module.exports = {
     strict: 'error',
   },
 };
-
-
-console.log(rules);
